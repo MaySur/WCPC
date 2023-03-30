@@ -1,0 +1,36 @@
+Problem:
+
+Stacy is suspected of committing tax fraud and the IRS (Internal Revenue Service) wants to investigate her. Your task is to write a program that calculates the total tax amount Stacy should have paid based on her income and deductions, and compares it to the amount she actually paid. If the difference between the two amounts exceeds a certain threshold, the program should flag Stacy's tax return for further investigation.
+
+Inputs:
+
+Stacy's income for the year
+The amount of deductions that Stacy claimed
+
+Outputs:
+
+The difference between the two amounts
+
+Rules:
+
+The income and the deductions are always positive integers
+The tax rate is 20% of the income and subtracted by the deductions -- Clarification on deduction
+
+tax_rate = 0.20
+total_tax = (income * tax_rate) - deductions
+amount_paid = income - total_tax
+
+If the difference between the two amounts is more than $500 then the program will output "under investigation"
+
+Example:
+
+Input:
+	5000
+	500
+Output:
+	Status: Under Investigation
+
+Notes:
+
+Outputs - More specific, 
+
