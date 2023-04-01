@@ -1,11 +1,10 @@
-# Prompt the user for Stacy's income and deduction
-income = int(input("Income: "))
-reported_tax = int(input("Tax: "))
+total_income = int(input())
+reported_tax = int(input())
 
-# Calculate the total tax amount Stacy should have paid
-total_tax = (income * 0.20)
-
-if total_tax > reported_tax :
+total_tax = int(total_income * 0.20)
+if reported_tax <0:
+    print("Tax should be a non-negative integer.")
+elif total_tax > reported_tax :
     print("STACY HAS COMMITTED TAX FRAUD")
 else:
     print("Stacy has not committed tax fraud")

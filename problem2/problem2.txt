@@ -1,0 +1,3 @@
+Write a program that takes an integer n as input and prints out a half diamond made of asterisks * with 2n-1 rows. 
+The top half of the diamond should have n rows, increasing in size from 1 asterisk to n asterisks, and the bottom half should have n-1 rows, 
+decreasing in size from n-1 asterisks to 1 asterisk. Between the top half of the diamond and the bottom half have a single line of asterisks that are n+1 to form a pattern that looks nice.
