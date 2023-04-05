@@ -1,12 +1,12 @@
 #  #19. Stacy commits Tax Fraud
 
 ## Background
-* Stacy is suspected of committing tax fraud and the IRS (Internal Revenue Service) wants to investigate her. Your task is to write a program that calculates the total tax amount Stacy should have paid based on her income. The program will take two inputs the total income and the amount of tax she paid and compare it to amount she actually should have paid. If the difference between the two amounts are not equal the program needs to output a message.
+* Stacy is suspected of committing tax fraud and the IRS (Internal Revenue Service) wants to investigate her. Your task is to write a program that calculates the total tax Stacy should have paid based on her income. The program will take two inputs the total income and the amount of tax she paid and compare it to the amount she actually should have paid. If the difference between the two amounts are not equal, the program needs to output a message.
 
 ***
 
 ## Description
-* Given two integers (both integers), the first integer is Stacy's total income which is always bigger then 0 and the second integer amount of tax she paid. To find the amount of tax that Stacy should have paid use the below formula that will always output a integer:
+* Given two integers, the first representing Stacy's total income, which is guaranteed to be greater than 0, and the second representing the amount of tax she paid which is greater than 0, the formula below can be used to determine the accurate amount of tax that Stacy should have paid. This formula will always output an integer result:
 
 * For python:
 ```
@@ -17,25 +17,24 @@ total_tax = int(total_income * 0.20)
 int total_tax = (int) (total_income *.20);
 ```
 
-* Compare the total_tax by the amount that of tax Stacy reported she paid.
-
+* Compare the total_tax by the amount of tax that Stacy reported she paid.
 
 * If the total_tax is bigger than the amount of tax Stacy reported, then the program should output the string: 'STACY HAS COMMITTED TAX FRAUD'.
 * If the total_tax is less or equal to the amount of tax Stacy reported, then the program should output the string 'Stacy has not committed tax fraud'.
-* If the reported_tax is a negative number the program should output the string: 'Tax should be a non-negative integer.'
+
 ***
 
 ## Input
 Enter two integers:
 
-* The first integer, total_income, is a positive value greater than zero. This will represent Stacy's total income.
+* The first integer, total_income, is a positive value representing Stacy's total income.
 
-* The second integer, reported_tax, is a value representing Stacy's reported tax amount.
-
+* The second integer, reported_tax, is a positve value representing Stacy's reported tax amount.
 
 ## Output
 
-* There will be a single string outputed. Either the string STACY HAS COMMITTED TAX FRAUD Or Stacy has not committed tax fraud Or Tax should be a non-negative integer.
+* There will be a single string outputed. Either the string STACY HAS COMMITTED TAX FRAUD Or Stacy has not committed tax fraud.
+
 ***
 
 ## Sample Inputs:
@@ -61,16 +60,6 @@ Stacy has not committed tax fraud
 STACY HAS COMMITTED TAX FRAUD
 ```
 
-### Sample Input 3:
-```
-50000
--2000
-```
-
-### Sample Output 3:
-```
-Tax should be a non-negative integer.
-```
 ***
 ## Code Template
 Example Java Program for reading input.

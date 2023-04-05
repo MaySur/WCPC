@@ -3,7 +3,7 @@
 ## Background
 * Write a program that takes an integer n as a input and prints out a two right triangle that mirrors each other (shown below) made of asterisks * with 2n-1 rows.
 
-The top half of the figure should have n rows, increasing in the amount of asterisks from 1 asterisk to n asterisks, and the bottom half should have n-1 rows, decreasing in the amount of asterisks from n-1 asterisks to 1 asterisk.
+* The top half of the figure should have n rows, increasing in the amount of asterisks from 1 asterisk to n asterisks, and the bottom half should have n-1 rows, decreasing in the amount of asterisks from n-1 asterisks to 1 asterisk.
 ***
 
 ## Description
